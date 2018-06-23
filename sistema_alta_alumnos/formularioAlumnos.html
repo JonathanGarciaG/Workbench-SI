@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro de Alumnos</title>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, user-scalable=no, intial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--se usa el css de bootstrap-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+<br>
+<br>
+<div class="container"><!--se utiliza la clase container para centrar el formulario-->
+<form method="post" action="nuevoAlumno.php"><!--declaramos la llamada del metodo post para guardar los valores insertados en los input-->
+    <!--se definen los label e input de el formulario-->
+    <label for="nombre">Nombre:</label>
+    <input name="nombre" type="nombre" class="form-control" requiered type="text" id="nombre" placeholder="Nombre Alumno"><br><br>
+    <label for="apellidos">Apellidos:</label>
+    <input name="apellidos" type="apellidos" class="form-control" requiered type="text" id="apellidos" placeholder="Apellido"><br><br>
+    <label for="mat">Matricula:</label>
+    <input name="matricula" type="matricula" class="form-control" requiered type="text" id="matricula" placeholder="Matricula"><br><br>
+    <label for="exampleInputEmail1">Email:</label>
+    <input name="email" type="email" class="form-control" id="email" requiered type="text" placeholder="Enter email"><br><br>
+    <label for="carrera">Carrera:</label>
+    <input name="carrera" type="carrera" class="form-control" id="carrera" requiered type="text" placeholder="Carrera"><br><br>
+    <label for="grupo">Grupo:</label>
+    <input name="grupo" type="grupo" class="form-control" id="grupo" requiered type="text"  placeholder="Grupo"><br><br>
+    <label for="phone">Telefono:</label>
+    <input name="telefono" type="telefono" class="form-control" id="telefono" requiered type="text" placeholder="Telefono"><br>
+    <br><br>
+<input type="submit" value="Registrar" class="btn btn-primary"><!--boton submit para registrar y ejecutar la accion de nuevoAlumno.php-->
+</form>
+</div>
+
+</body>
+</html>
